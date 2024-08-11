@@ -29,10 +29,18 @@ CREATE TABLE logs (
 
 ## Configurar el servidor:
 Abre el archivo server.py y configura los detalles de la base de datos:
-db_config = {
+
+db_config = {   
+    
     "dbname": "nombre_base_datos",
+
+    
     "user": "usuario",
+
+    
     "password": "contraseña",
+
+    
     "host": "localhost"
 }
 
